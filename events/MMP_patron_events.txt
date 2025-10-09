@@ -1,0 +1,241 @@
+#########################################
+#
+# Hydra's All Enclaves
+#
+#########################################
+
+namespace = shroud
+
+#########################################
+
+## Base Event for Delve events
+country_event = {
+	id = shroud.3
+	title = BLANK_STRING
+	diplomatic_title = shroud.3.diplo_title
+	desc = BLANK_STRING
+
+	is_triggered_only = yes
+	diplomatic = yes
+	force_open = yes
+
+	picture_event_data = {
+		portrait = shroud1
+		room = shroud_room
+	}
+
+	option = {
+		name = BLANK_STRING
+	}
+
+	show_sound = {
+		trigger = { is_robot_empire = yes }
+		sound = event_psionic_robot
+	}
+	show_sound = {
+		trigger = { is_robot_empire = no }
+		sound = event_psionic
+	}
+}
+
+# The Spireless Tower - The Shining Path
+country_event = {
+	id = shroud.25025
+	base = shroud.3
+
+	title = shroud.25025.title
+	desc_clear = yes
+	desc = shroud.25025.desc
+
+	trigger = {
+		NOR = {
+			has_country_flag = shroud_25025_happened
+			has_country_flag = forging_our_own_path
+		}
+		has_patron_relation = {
+			patron = mmp_the_spireless_tower
+			contact = completed
+		}
+		OR = {
+			is_in_domain = the_eater_of_worlds
+			is_in_domain = the_instrument_of_desire
+		}
+	}
+
+	immediate = {
+		set_country_flag = shroud_25025_happened
+	}
+
+	option_clear = yes
+	option = {
+		name = shroud.25025.a
+		custom_tooltip = shroud.25025.a.tt
+	}
+}
+
+# The Persistent Flame - For Eternity
+country_event = {
+	id = shroud.30030
+	base = shroud.3
+
+	title = shroud.30030.title
+	desc_clear = yes
+	desc = shroud.30030.desc
+
+	trigger = {
+		NOR = {
+			has_country_flag = shroud_30030_happened
+			has_country_flag = forging_our_own_path
+		}
+		has_patron_relation = {
+			patron = mmp_the_ravounous_flame
+			contact = completed
+		}
+		OR = {
+			is_in_domain = the_cradle_of_souls
+			is_in_domain = the_instrument_of_desire
+		}
+	}
+
+	immediate = {
+		set_country_flag = shroud_30030_happened
+	}
+
+	option_clear = yes
+	option = {
+		name = shroud.30030.a
+		custom_tooltip = shroud.30030.a.tt
+	}
+}
+
+# The Silent Renegade - The Shroud of Shroud
+country_event = {
+	id = shroud.35035
+	base = shroud.3
+
+	title = shroud.35035.title
+	desc_clear = yes
+	desc = shroud.35035.desc
+
+	trigger = {
+		NOR = {
+			has_country_flag = shroud_35035_happened
+			has_country_flag = forging_our_own_path
+		}
+		has_patron_relation = {
+			patron = mmp_the_silent_renegade
+			contact = completed
+		}
+		OR = {
+			is_in_domain = the_cradle_of_souls
+			is_in_domain = the_composer_of_strands
+		}
+	}
+
+	immediate = {
+		set_country_flag = shroud_35035_happened
+	}
+
+	option_clear = yes
+	option = {
+		name = shroud.35035.a
+		custom_tooltip = shroud.35035.a.tt
+	}
+}
+
+# The Empty Maw - Till the End
+country_event = {
+	id = shroud.40040
+	base = shroud.3
+
+	title = shroud.40040.title
+	desc_clear = yes
+	desc = shroud.40040.desc
+
+	trigger = {
+		NOR = {
+			has_country_flag = shroud_40040_happened
+			has_country_flag = forging_our_own_path
+		}
+		has_patron_relation = {
+			patron = mmp_the_hollow_maw
+			contact = completed
+		}
+		OR = {
+			is_in_domain = the_eater_of_worlds
+			is_in_domain = the_composer_of_strands
+		}
+	}
+
+	immediate = {
+		set_country_flag = shroud_40040_happened
+	}
+
+	option_clear = yes
+	option = {
+		name = shroud.40040.a
+		custom_tooltip = shroud.40040.a.tt
+	}
+}
+
+#######################
+#
+#######################
+
+namespace = MMP_patron
+
+# The Spireless Tower
+inline_script = {
+	script = shroud/minor_patron_first_contact_start_event
+	EVENT_ID = MMP_patron.10
+	SPECIAL_PROJECT_KEY = "MMP_THE_SPIRELESS_TOWER_FC_PROJECT"
+	PATRON_TYPE = mmp_the_spireless_tower
+}
+
+inline_script = {
+	script = shroud/minor_patron_first_contact_end_event
+	EVENT_ID = MMP_patron.15
+	PATRON_TYPE = mmp_the_spireless_tower
+}
+
+# The Hollow Maw
+inline_script = {
+	script = shroud/minor_patron_first_contact_start_event
+	EVENT_ID = MMP_patron.20
+	SPECIAL_PROJECT_KEY = "MMP_THE_HOLLOW_MAW_FC_PROJECT"
+	PATRON_TYPE = mmp_the_hollow_maw
+}
+
+inline_script = {
+	script = shroud/minor_patron_first_contact_end_event
+	EVENT_ID = MMP_patron.25
+	PATRON_TYPE = mmp_the_hollow_maw
+}
+
+# The Silent Renegade
+inline_script = {
+	script = shroud/minor_patron_first_contact_start_event
+	EVENT_ID = MMP_patron.30
+	SPECIAL_PROJECT_KEY = "MMP_THE_SILENT_RENEGADE_FC_PROJECT"
+	PATRON_TYPE = mmp_the_silent_renegade
+}
+
+inline_script = {
+	script = shroud/minor_patron_first_contact_end_event
+	EVENT_ID = MMP_patron.35
+	PATRON_TYPE = mmp_the_silent_renegade
+}
+
+# The Ravounous Flame
+inline_script = {
+	script = shroud/minor_patron_first_contact_start_event
+	EVENT_ID = MMP_patron.40
+	SPECIAL_PROJECT_KEY = "MMP_THE_RAVOUNOUS_FLAME_FC_PROJECT"
+	PATRON_TYPE = mmp_the_ravounous_flame
+}
+
+inline_script = {
+	script = shroud/minor_patron_first_contact_end_event
+	EVENT_ID = MMP_patron.45
+	PATRON_TYPE = mmp_the_ravounous_flame
+}

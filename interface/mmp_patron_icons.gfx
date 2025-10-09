@@ -1,0 +1,25 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_mmp_the_spireless_tower_icon"
+		texturefile = "gfx/interface/icons/patrons/mmp_the_spireless_tower.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
+	
+	spriteType = {
+		name = "GFX_mmp_the_hollow_maw_icon"
+		texturefile = "gfx/interface/icons/patrons/mmp_the_hollow_maw.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
+	
+	spriteType = {
+		name = "GFX_mmp_the_silent_renegade_icon"
+		texturefile = "gfx/interface/icons/patrons/mmp_the_silent_renegade.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
+	
+	spriteType = {
+		name = "GFX_mmp_the_ravounous_flame_icon"
+		texturefile = "gfx/interface/icons/patrons/mmp_the_ravounous_flame.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
+}

@@ -1,0 +1,153 @@
+﻿l_english:
+
+ mmp_the_spireless_tower: "Spireless Tower"
+ mmp_the_spireless_tower_article: "the $mmp_the_spireless_tower$"
+ mmp_the_spireless_tower_article_cap: "The $mmp_the_spireless_tower$"
+ mmp_the_spireless_tower_color: "§L$mmp_the_spireless_tower$§!"
+ mmp_the_spireless_tower_color_article: "the §H$mmp_the_spireless_tower$§!"
+ mmp_the_spireless_tower_color_article_cap: "The §H$mmp_the_spireless_tower$§!"
+ mmp_the_spireless_tower_desc: "Endless Limitlessness with which to cage."
+ code_name_mmp_tower: "Splendorious One"
+ 
+ mmp_the_hollow_maw: "Hollow Maw"
+ mmp_the_hollow_maw_article: "the $mmp_the_hollow_maw$"
+ mmp_the_hollow_maw_article_cap: "The $mmp_the_hollow_maw$"
+ mmp_the_hollow_maw_color: "§L$mmp_the_hollow_maw$§!"
+ mmp_the_hollow_maw_color_article: "the §H$mmp_the_hollow_maw$§!"
+ mmp_the_hollow_maw_color_article_cap: "The §H$mmp_the_hollow_maw$§!"
+ mmp_the_hollow_maw_desc: "Entropy is never satisfied."
+ code_name_mmp_maw: "Empty Presence"
+ 
+ mmp_the_silent_renegade: "Silent Renegade"
+ mmp_the_silent_renegade_article: "the $mmp_the_silent_renegade$"
+ mmp_the_silent_renegade_article_cap: "The $mmp_the_silent_renegade$"
+ mmp_the_silent_renegade_color: "§L$mmp_the_silent_renegade$§!"
+ mmp_the_silent_renegade_color_article: "the §H$mmp_the_silent_renegade$§!"
+ mmp_the_silent_renegade_color_article_cap: "The §H$mmp_the_silent_renegade$§!"
+ mmp_the_silent_renegade_desc: "The unknown is the safest hiding spot."
+ code_name_mmp_renegade: "Hidden Entity"
+ 
+ mmp_the_ravounous_flame: "Persistent Flame"
+ mmp_the_ravounous_flame_article: "the $mmp_the_ravounous_flame$"
+ mmp_the_ravounous_flame_article_cap: "The $mmp_the_ravounous_flame$"
+ mmp_the_ravounous_flame_color: "§L$mmp_the_ravounous_flame$§!"
+ mmp_the_ravounous_flame_color_article: "the §H$mmp_the_ravounous_flame$§!"
+ mmp_the_ravounous_flame_color_article_cap: "The §H$mmp_the_ravounous_flame$§!"
+ mmp_the_ravounous_flame_desc: "For the timeless, does time go by?"
+ code_name_mmp_flame: "Immortal Force"
+
+ edict_mmp_will_of_glory: "Will of Glory"
+ edict_mmp_will_of_glory_desc: "$mmp_the_spireless_tower_color_article_cap$ pierces the fog."
+ 
+ edict_mmp_will_of_the_void: "Will of the Void"
+ edict_mmp_will_of_the_void_desc: "$mmp_the_hollow_maw_color_article_cap$ erases all."
+ 
+ edict_mmp_will_of_hiding: "Will of Hiding"
+ edict_mmp_will_of_hiding_desc: "$mmp_the_silent_renegade_color_article_cap$ conceals our presence."
+ 
+ edict_mmp_will_of_eternity: "Will of Eternity"
+ edict_mmp_will_of_eternity_desc: "$mmp_the_ravounous_flame_color_article_cap$ will last forever."
+
+ #MMP_patron.10.desc: "[This.GetMinorPatronEaterInstrumentIntro]\n\nChaotic noise yields to an oppressive darkness. We feel our intentions scrutinized, studied, judged.\n\nThe heavy expectation of order, unchallenged and immutable, peers deep within us. The §H$code_name_throne$§! judges our intent.\n\nIts gaze having passed over us, the darkness recedes. The infectious scrutiny compels us to fall in line."
+ #MMP_patron.15.title: "$the_vacant_throne_article_cap$ Emerges"
+ #MMP_patron.15.desc: "We have knelt in the presence of the §H$code_name_throne$§!.\n\nOur minds were scrutinized with the cold indifference of uncompromising authority, fixing us in place as we were judged.\n\nThe oppressive vacuum of $the_vacant_throne_color_article$ offers no mercy - nor suffering. It expects only order and certainty, imposing it where it is found lacking.\n\nWe now carry this weight with us."
+ #MMP_patron.15.a: "Judgement is ever present."
+
+ # The Spireless Tower
+ MMP_patron.10.desc: "[This.GetMinorPatronEaterInstrumentIntro]\n\nThe chaos of the Shroud suddenly sharpen to a glorious light. We find ourselves compelled to respect the presence of this place.\n\nThe grandour does betray the danger of this place. The §H$code_name_mmp_tower$§! is the one to lay claim to this domain.\n\nIts expectations pierces us, setting us up for what is ahead."
+ MMP_patron.15.title: "$mmp_the_spireless_tower_article_cap$ Emerges"
+ MMP_patron.15.desc: "We have returned to the §H$code_name_mmp_tower$§!.\n\nThis time it reacts not with indifference, but with guarded interest. It does not waste on those beneath it. Only those with potential is allowed here.\n\nWe have a long way to go, but in time and with experience, we too could reach this level of power.\n\n$mmp_the_spireless_tower_color_article_cap$ offers to guide us, should we pursue this path."
+ MMP_patron.15.a: "The path ahead is clear."
+
+ # The Empty Maw
+ MMP_patron.20.desc: "[This.GetMinorPatronComposerEaterIntro]\n\nSounds and color drains as we enter a neverending emptiness. We try to reach out, but find nothing.\n\nWe wait for an eternity before something stirs. The §H$code_name_mmp_maw$§! is almost unnoticeable.\n\nIts disregard for us speaks volumes more than words ever could."
+ MMP_patron.25.title: "$mmp_the_hollow_maw_article_cap$ Emerges"
+ MMP_patron.25.desc: "The domain of the §H$code_name_mmp_maw$§! is as bleak as ever.\n\nNothing happens in this cold everlasting darkness. Yet our [GetTelepathPlural] know everything they need to know.\n\nWe need not fear oblivion, for the embrace of $mmp_the_hollow_maw_color_article$ awaits all.\n\nThe void's promise now lies open for us to see."
+ MMP_patron.25.a: "Existence is the lack of the void."
+ 
+ # The Silent Renegade
+ MMP_patron.30.desc: "[This.GetMinorPatronCradleComposerIntro]\n\nA cloak of calm falls upon the Shroud. For a moment, all is silent before a presence makes itself known.\n\nThe §H$code_name_mmp_renegade$§! has been waiting for us. For a moment it observes us, then disappears.\n\nIt is our turn now."
+ MMP_patron.35.title: "$mmp_the_silent_renegade_article_cap$ Emerges"
+ MMP_patron.35.desc: "We have done our part and proven ourselves. The §H$code_name_mmp_renegade$§! did not reveal itself this time.\n\nNow it beckons us forward, wholly unnatural for this being. It seeks to stay out of conflict and focus, allowing only to be seen by those it cannot truly hide from.\n\nHere we too can stay, if only we can keep it to ourselves. No small token of trust to be sure, but $mmp_the_silent_renegade_color_article$ is willing to share.\n\nIt's cloak settles on us protectively."
+ MMP_patron.35.a: "We are the shadow now."
+ 
+ # The Persistent Flame
+ MMP_patron.40.desc: "[This.GetMinorPatronInstrumentCradleIntro]\n\nThe intensity of the shroud increases to a wildfire.\n\nThe more we try to put it out, the more it blazes, until we are nothing but ashes. Then the ravounous chaos stills as the §H$code_name_mmp_tower$§! coils back into itself.\n\nEmbers of its raw power is left behind, a trail for us to follow."
+ MMP_patron.45.title: "$mmp_the_ravounous_flame_article_cap$ Emerges"
+ MMP_patron.45.desc: "The trail has led to the §H$code_name_mmp_tower$§!'s lair.\n\nIt blazes gloriously, blasting away our fragility with its shine. It has noticed us, but only now that we braved its trial is it ready to welcome us in its embrace. Raw power flits around in the shroud as it curls around us.\n\nThe raw power burns away at our essence until only our core remains, the very essence of what we are.\n\nBut $mmp_the_spireless_tower_color_article$ is not cruel. It has hardened us for hardships to come."
+ MMP_patron.45.a: "Our weaknesses have been burned away."
+ 
+# Essence
+
+ # The Spireless Tower
+ #shroud.25025.title: "Chaos into Order"
+ shroud.25025.title: "The Shining Path"
+ #shroud.25025.desc: "The Shroud's seething ebullition pulsates before us. An intractable presence approaches; it is $the_vacant_throne_color_article$.\n\nAs it nears, vast and knotted coils of raw psionic energy are suddenly tamed. The morass becomes clearer and more comprehensible. Colors bloom with newfound definition. Symmetry, logic, and structure are imposed.\n\nSomething forms within the deepest recess of our minds: a far-reaching desire for order."
+ shroud.25025.desc: "Before us the chaos of the shroud coalesces into sharp clarity, and in the center stands the $mmp_the_spireless_tower_color_article$.\n\nAs it turns its watchful gaze towards us, the psionic energy around us harden as well as chaos subsides. Only sharp clear edges remain in all their glory.\n\nWithin us our confidence grows: we stand here at the precipe of greatness. We need only to follow the path."
+ #shroud.25025.a: "Shun chaos. Embrace order."
+ shroud.25025.a: "We must follow the guiding light."
+ #shroud.25025.a.tt: "§Y$unlock_edict_tt$§!$edict_will_of_order$"
+ shroud.25025.a.tt: "§Y$unlock_edict_tt$§!$edict_will_of_order$"
+ 
+ # The Empty Maw
+ shroud.40040.title: "The Shining Path"
+ shroud.40040.desc: "Before us the chaos of the shroud coalesces into sharp clarity, and in the center stands the $mmp_the_spireless_tower_color_article$.\n\nAs it turns its watchful gaze towards us, the psionic energy around us harden as well as chaos subsides. Only sharp clear edges remain in all their glory.\n\nWithin us our confidence grows: we stand here at the precipe of greatness. We need only to follow the path."
+ shroud.40040.a: "We must follow the guiding light."
+ shroud.40040.a.tt: "§Y$unlock_edict_tt$§!$edict_will_of_order$"
+ 
+ # The Silent Renegade
+ shroud.35035.title: "The Shining Path"
+ shroud.35035.desc: "Before us the chaos of the shroud coalesces into sharp clarity, and in the center stands the $mmp_the_spireless_tower_color_article$.\n\nAs it turns its watchful gaze towards us, the psionic energy around us harden as well as chaos subsides. Only sharp clear edges remain in all their glory.\n\nWithin us our confidence grows: we stand here at the precipe of greatness. We need only to follow the path."
+ shroud.35035.a: "We must follow the guiding light."
+ shroud.35035.a.tt: "§Y$unlock_edict_tt$§!$edict_will_of_order$"
+ 
+ # The Persisten Flame
+ shroud.30030.title: "The Shining Path"
+ shroud.30030.desc: "Before us the chaos of the shroud coalesces into sharp clarity, and in the center stands the $mmp_the_spireless_tower_color_article$.\n\nAs it turns its watchful gaze towards us, the psionic energy around us harden as well as chaos subsides. Only sharp clear edges remain in all their glory.\n\nWithin us our confidence grows: we stand here at the precipe of greatness. We need only to follow the path."
+ shroud.30030.a: "We must follow the guiding light."
+ shroud.30030.a.tt: "§Y$unlock_edict_tt$§!$edict_will_of_order$"
+ 
+ MMP_THE_SPIRELESS_TOWER_FC_PROJECT: "Commune with the $code_name_mmp_tower$"
+ MMP_THE_SPIRELESS_TOWER_FC_PROJECT_DESC: "$MINOR_PATRON_FC_PROJECT_DESC$\n\n$mmp_tower_fc_project_desc_end$"
+ MMP_THE_SPIRELESS_TOWER_FC_PROJECT_HIVE: "$THE_SPIRELESS_TOWER_FC_PROJECT$"
+ MMP_THE_SPIRELESS_TOWER_FC_PROJECT_HIVE_DESC: "$MINOR_PATRON_FC_PROJECT_HIVE_DESC$\n\n$mmp_tower_fc_project_desc_end$"
+ MMP_THE_SPIRELESS_TOWER_FC_PROJECT_ROBOT: "$THE_SPIRELESS_TOWER_FC_PROJECT$"
+ MMP_THE_SPIRELESS_TOWER_FC_PROJECT_ROBOT_DESC: "$MINOR_PATRON_FC_PROJECT_ROBOT_DESC$\n\n$mmp_tower_fc_project_desc_end$"
+ mmp_tower_fc_project_desc_end: "Until we know its true name, this being shall be referred to as the §H$code_name_mmp_tower$§!."
+ 
+ MMP_THE_HOLLOW_MAW_FC_PROJECT: "Commune with the $code_name_mmp_maw$"
+ MMP_THE_HOLLOW_MAW_FC_PROJECT_DESC: "$MINOR_PATRON_FC_PROJECT_DESC$\n\n$mmp_maw_fc_project_desc_end$"
+ MMP_THE_HOLLOW_MAW_FC_PROJECT_HIVE: "$THE_HOLLOW_MAW_FC_PROJECT$"
+ MMP_THE_HOLLOW_MAW_FC_PROJECT_HIVE_DESC: "$MINOR_PATRON_FC_PROJECT_HIVE_DESC$\n\n$mmp_maw_fc_project_desc_end$"
+ MMP_THE_HOLLOW_MAW_FC_PROJECT_ROBOT: "$THE_HOLLOW_MAW_FC_PROJECT$"
+ MMP_THE_HOLLOW_MAW_FC_PROJECT_ROBOT_DESC: "$MINOR_PATRON_FC_PROJECT_ROBOT_DESC$\n\n$mmp_maw_fc_project_desc_end$"
+ mmp_maw_fc_project_desc_end: "Until we know its true name, this being shall be referred to as the §H$code_name_mmp_maw$§!."
+ 
+ MMP_THE_SILENT_RENEGADE_FC_PROJECT: "Commune with the $code_name_mmp_renegade$"
+ MMP_THE_SILENT_RENEGADE_FC_PROJECT_DESC: "$MINOR_PATRON_FC_PROJECT_DESC$\n\n$mmp_renegade_fc_project_desc_end$"
+ MMP_THE_SILENT_RENEGADE_FC_PROJECT_HIVE: "$THE_SILENT_RENEGADE_FC_PROJECT$"
+ MMP_THE_SILENT_RENEGADE_FC_PROJECT_HIVE_DESC: "$MINOR_PATRON_FC_PROJECT_HIVE_DESC$\n\n$mmp_renegade_fc_project_desc_end$"
+ MMP_THE_SILENT_RENEGADE_FC_PROJECT_ROBOT: "$THE_SILENT_RENEGADE_FC_PROJECT$"
+ MMP_THE_SILENT_RENEGADE_FC_PROJECT_ROBOT_DESC: "$MINOR_PATRON_FC_PROJECT_ROBOT_DESC$\n\n$mmp_renegade_fc_project_desc_end$"
+ mmp_renegade_fc_project_desc_end: "Until we know its true name, this being shall be referred to as the §H$code_name_mmp_renegade$§!."
+ 
+ MMP_THE_RAVOUNOUS_FLAME_FC_PROJECT: "Commune with the $code_name_mmp_flame$"
+ MMP_THE_RAVOUNOUS_FLAME_FC_PROJECT_DESC: "$MINOR_PATRON_FC_PROJECT_DESC$\n\n$mmp_flame_fc_project_desc_end$"
+ MMP_THE_RAVOUNOUS_FLAME_FC_PROJECT_HIVE: "$THE_RAVOUNOUS_FLAME_FC_PROJECT$"
+ MMP_THE_RAVOUNOUS_FLAME_FC_PROJECT_HIVE_DESC: "$MINOR_PATRON_FC_PROJECT_HIVE_DESC$\n\n$mmp_flame_fc_project_desc_end$"
+ MMP_THE_RAVOUNOUS_FLAME_FC_PROJECT_ROBOT: "$THE_RAVOUNOUS_FLAME_FC_PROJECT$"
+ MMP_THE_RAVOUNOUS_FLAME_FC_PROJECT_ROBOT_DESC: "$MINOR_PATRON_FC_PROJECT_ROBOT_DESC$\n\n$mmp_flame_fc_project_desc_end$"
+ mmp_flame_fc_project_desc_end: "Until we know its true name, this being shall be referred to as the §H$code_name_mmp_flame$§!."
+ 
+ mmp_spireless_tower_accord_tt: "$accord_minor_patron_tt$ §G$@mmp_spireless_tower_accord|0%$§! $MOD_SHIP_WEAPON_RANGE_MULT$"
+ mmp_spireless_tower_modifier_tt: "$mod_country_power_projection_produces_mult$ per $pop_group_unit$ $job_telepath_swap_plural_with_icon$: §G+5%§!"
+ 
+ mmp_hollow_maw_accord_tt: "$accord_minor_patron_tt$ §G$@mmp_hollow_maw_accord|0%$§! $MOD_SHIP_ARMOR_PENETRATION_ADD$"
+ mmp_hollow_maw_modifier_tt: "$MOD_COUNTRY_WAR_EXHAUSTION_MULT$ per $pop_group_unit$ $job_telepath_swap_plural_with_icon$: §G-2%§!"
+ 
+ mmp_silent_renegade_accord_tt: "$accord_minor_patron_tt$ §G$@mmp_silent_renegade_accord|0$§! $MOD_SHIP_CLOAKING_STRENGTH_ADD$"
+ mmp_silent_renegade_modifier_tt: "$MOD_PLANET_ORBITAL_BOMBARDMENT_DAMAGE$ per $pop_group_unit$ $job_telepath_swap_plural_with_icon$: §G-20%§!"
+ 
+ mmp_ravounous_flame_accord_tt: "$accord_minor_patron_tt$ §G$@mmp_ravounous_flame_accord|0%$§! $MOD_SHIP_HULL_REGEN_ADD_PERC$"
+ mmp_ravounous_flame_modifier_tt: "$mod_planet_jobs_energy_produces_mult$ per $pop_group_unit$ $job_telepath_swap_plural_with_icon$: §G+10%§!"
+ #$@mmp_spireless_tower_telepath_bonus|0%$§!"

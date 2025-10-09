@@ -1,0 +1,15 @@
+#############################################
+# Scrited Variables - Shadows of the Shroud #
+#############################################
+
+@mmp_spireless_tower_accord = 0.2
+@mmp_spireless_tower_telepath_bonus = 0.05
+
+@mmp_hollow_maw_accord = 0.1
+@mmp_hollow_maw_telepath_bonus = -0.02
+
+@mmp_silent_renegade_accord = 2
+@mmp_silent_renegade_telepath_bonus = -0.2
+
+@mmp_ravounous_flame_accord = 0.15
+@mmp_ravounous_flame_telepath_bonus = 0.1

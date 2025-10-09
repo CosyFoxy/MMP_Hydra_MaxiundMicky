@@ -1,0 +1,197 @@
+#########################################
+#
+# Hydra's More Minor Patrons (Overwrites)
+#
+#########################################
+
+##########################
+# Shroud-Touched Enclave #
+##########################
+
+shroud_touched_patron_first_contact = {
+	random_list = {
+		1 = {
+			modifier = {
+				factor = 0
+				has_contact_with_patron_or_no_relation = {
+					PATRON = the_eater_of_worlds
+				}
+			}
+			country_event = { id = shroud.4000 }
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				has_contact_with_patron_or_no_relation = {
+					PATRON = the_cradle_of_souls
+				}
+			}
+			country_event = { id = shroud.4010 }
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_contact_with_patron_or_no_relation = {
+						PATRON = the_composer_of_strands
+					}
+				}
+			}
+			country_event = { id = shroud.4020 }
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				has_contact_with_patron_or_no_relation = {
+					PATRON = the_instrument_of_desire
+				}
+			}
+			country_event = { id = shroud.4030 }
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_contact_with_patron_or_no_relation = {
+						PATRON = the_animator_of_clay
+					}
+					has_contacted_all_major_patrons = no
+				}
+			}
+			country_event = { id = shroud.4050 }
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_contact_with_patron_or_no_relation = {
+						PATRON = the_outsider
+					}
+					has_contacted_all_major_patrons = no
+				}
+			}
+			country_event = { id = shroud.4060 }
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_contact_with_patron_or_no_relation = {
+						PATRON = the_endless_tide
+					}
+					has_contacted_all_major_patrons = no
+				}
+			}
+			country_event = { id = shroud.4070 }
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_contact_with_patron_or_no_relation = {
+						PATRON = the_pale_mountain
+					}
+					has_contacted_all_major_patrons = no
+				}
+			}
+			country_event = { id = shroud.4080 }
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_contact_with_patron_or_no_relation = {
+						PATRON = the_golden_dream
+					}
+					has_contacted_all_major_patrons = no
+				}
+			}
+			country_event = { id = shroud.4090 }
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_contact_with_patron_or_no_relation = {
+						PATRON = the_hollow_point
+					}
+					has_contacted_all_major_patrons = no
+				}
+			}
+			country_event = { id = shroud.4100 }
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_contact_with_patron_or_no_relation = {
+						PATRON = the_vacant_throne
+					}
+					has_contacted_all_major_patrons = no
+				}
+			}
+			country_event = { id = shroud.4110 }
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_contact_with_patron_or_no_relation = {
+						PATRON = the_black_river
+					}
+					has_contacted_all_major_patrons = no
+				}
+			}
+			country_event = { id = shroud.4120 }
+		}
+		# Custom Patrons
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_contact_with_patron_or_no_relation = {
+						PATRON = mmp_the_spireless_tower
+					}
+					has_contacted_all_major_patrons = no
+				}
+			}
+			country_event = { id = MMP_patron.10 }
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_contact_with_patron_or_no_relation = {
+						PATRON = mmp_the_hollow_maw
+					}
+					has_contacted_all_major_patrons = no
+				}
+			}
+			country_event = { id = MMP_patron.20 }
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_contact_with_patron_or_no_relation = {
+						PATRON = mmp_the_silent_renegade
+					}
+					has_contacted_all_major_patrons = no
+				}
+			}
+			country_event = { id = MMP_patron.30 }
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_contact_with_patron_or_no_relation = {
+						PATRON = mmp_the_ravounous_flame
+					}
+					has_contacted_all_major_patrons = no
+				}
+			}
+			country_event = { id = MMP_patron.40 }
+		}
+	}
+}

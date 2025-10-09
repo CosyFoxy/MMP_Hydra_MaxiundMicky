@@ -1,0 +1,44 @@
+#########################################
+#
+# Hydra's More Minor Patrons (Overwrites)
+#
+#########################################
+
+has_contacted_all_minor_patrons = {
+	has_contact_with_patron_or_no_relation = {
+		PATRON = the_animator_of_clay
+	}
+	has_contact_with_patron_or_no_relation = {
+		PATRON = the_outsider
+	}
+	has_contact_with_patron_or_no_relation = {
+		PATRON = the_endless_tide
+	}
+	has_contact_with_patron_or_no_relation = {
+		PATRON = the_pale_mountain
+	}
+	has_contact_with_patron_or_no_relation = {
+		PATRON = the_golden_dream
+	}
+	has_contact_with_patron_or_no_relation = {
+		PATRON = the_hollow_point
+	}
+	has_contact_with_patron_or_no_relation = {
+		PATRON = the_vacant_throne
+	}
+	has_contact_with_patron_or_no_relation = {
+		PATRON = the_black_river
+	}
+	has_contact_with_patron_or_no_relation = {
+		PATRON = mmp_the_spireless_tower
+	}
+	has_contact_with_patron_or_no_relation = {
+		PATRON = mmp_the_hollow_maw
+	}
+	has_contact_with_patron_or_no_relation = {
+		PATRON = mmp_the_silent_renegade
+	}
+	has_contact_with_patron_or_no_relation = {
+		PATRON = mmp_the_ravounous_flame
+	}
+}

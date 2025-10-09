@@ -1,0 +1,9 @@
+#########################################
+#
+# Hydra's More Minor Patrons (Overwrites)
+#
+#########################################
+
+#MMP_test_modifier = {
+#	shroud_delve_cooldown = -1
+#}

@@ -1,0 +1,24 @@
+#########################################
+#
+# AAA's Game Start Events
+#
+#########################################
+
+namespace = mmp_game_start
+#########################################
+
+### Add planet flags to ancient planets
+#event = {
+#	id = mmp_game_start.1
+#	hide_window = yes
+#	is_triggered_only = yes
+#
+#	immediate = {
+#		every_playable_country = {
+#			add_modifier = {
+#				modifier = MMP_test_modifier
+#				days = -1
+#			}
+#		}
+#	}
+#}

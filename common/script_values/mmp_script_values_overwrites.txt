@@ -1,0 +1,57 @@
+#########################################
+#
+# Hydra's More Minor Patrons (Overwrites)
+#
+#########################################
+
+num_minor_patron_relations = {
+	base = 0
+	modifier = {
+		add = 1
+		has_patron_relation = { patron = the_golden_dream }
+	}
+	modifier = {
+		add = 1
+		has_patron_relation = { patron = the_animator_of_clay }
+	}
+	modifier = {
+		add = 1
+		has_patron_relation = { patron = the_outsider }
+	}
+	modifier = {
+		add = 1
+		has_patron_relation = { patron = the_pale_mountain }
+	}
+	modifier = {
+		add = 1
+		has_patron_relation = { patron = the_endless_tide }
+	}
+	modifier = {
+		add = 1
+		has_patron_relation = { patron = the_vacant_throne }
+	}
+	modifier = {
+		add = 1
+		has_patron_relation = { patron = the_black_river }
+	}
+	modifier = {
+		add = 1
+		has_patron_relation = { patron = the_hollow_point }
+	}
+	modifier = {
+		add = 1
+		has_patron_relation = { patron = mmp_the_spireless_tower }
+	}
+	modifier = {
+		add = 1
+		has_patron_relation = { patron = mmp_the_hollow_maw }
+	}
+	modifier = {
+		add = 1
+		has_patron_relation = { patron = mmp_the_silent_renegade }
+	}
+	modifier = {
+		add = 1
+		has_patron_relation = { patron = mmp_the_ravounous_flame }
+	}
+}
