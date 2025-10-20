@@ -339,3 +339,13 @@ triggered_planet_modifier = {
 	}
 	planet_jobs_energy_produces_mult = @mmp_ravounous_flame_accord
 }
+
+# By MaxiundMicky
+
+triggered_country_modifier = {
+    potential = {
+        exists = owner
+        owner = { has_country_flag = mmp_twinning_song_accord}
+    }
+    country_admin_cap_mult = -0.1
+}
