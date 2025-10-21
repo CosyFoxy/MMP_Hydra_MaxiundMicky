@@ -36,6 +36,16 @@
  mmp_the_ravounous_flame_desc: "For the timeless, does time go by?"
  code_name_mmp_flame: "Immortal Force"
 
+ ### BY MAXIUNDMICKY - Twinning Songs
+ mmp_the_twinning_songs: "Twinning Songs"
+ mmp_the_twinning_songs_article: "the $mmp_the_twinning_songs$"
+ mmp_the_twinning_songs_article_cap: "The $mmp_the_twinning_songs$"
+ mmp_the_twinning_songs_color: "§L$mmp_the_twinning_songs$§!"
+ mmp_the_twinning_songs_color_article: "the §H$mmp_the_twinning_songs$§!"
+ mmp_the_twinning_songs_color_article_cap: "The §H$mmp_the_twinning_songs$§!"
+ mmp_the_twinning_songs_desc: "One melody, yet two songs - Echos woven together."
+ code_name_mmp_songs: "Interwoven Voices"
+
  edict_mmp_will_of_glory: "Will of Glory"
  edict_mmp_will_of_glory_desc: "$mmp_the_spireless_tower_color_article_cap$ pierces the fog."
  
@@ -48,6 +58,10 @@
  edict_mmp_will_of_eternity: "Will of Eternity"
  edict_mmp_will_of_eternity_desc: "$mmp_the_ravounous_flame_color_article_cap$ will last forever."
 
+ ###BY MAXIUNDMICKY - Twinning Songs
+ edict_mmp_will_of_duality: "Will of Duality"
+ edict_mmp_will_of_duality_desc: "$mmp_the_twinning_songs_color_article_cap$ bring us together.
+ "
  #MMP_patron.10.desc: "[This.GetMinorPatronEaterInstrumentIntro]\n\nChaotic noise yields to an oppressive darkness. We feel our intentions scrutinized, studied, judged.\n\nThe heavy expectation of order, unchallenged and immutable, peers deep within us. The §H$code_name_throne$§! judges our intent.\n\nIts gaze having passed over us, the darkness recedes. The infectious scrutiny compels us to fall in line."
  #MMP_patron.15.title: "$the_vacant_throne_article_cap$ Emerges"
  #MMP_patron.15.desc: "We have knelt in the presence of the §H$code_name_throne$§!.\n\nOur minds were scrutinized with the cold indifference of uncompromising authority, fixing us in place as we were judged.\n\nThe oppressive vacuum of $the_vacant_throne_color_article$ offers no mercy - nor suffering. It expects only order and certainty, imposing it where it is found lacking.\n\nWe now carry this weight with us."
