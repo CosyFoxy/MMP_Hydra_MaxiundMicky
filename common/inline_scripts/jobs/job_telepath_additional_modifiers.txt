@@ -347,5 +347,5 @@ triggered_country_modifier = {
         exists = owner
         owner = { has_country_flag = mmp_twinning_song_accord}
     }
-    country_admin_cap_mult = -0.1
+    empire_size_mult = @mmp_twinning_songs_accord
 }
