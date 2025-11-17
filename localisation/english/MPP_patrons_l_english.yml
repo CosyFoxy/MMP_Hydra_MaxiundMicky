@@ -46,6 +46,16 @@
  mmp_the_twinning_songs_desc: "One melody, yet two songs - Echos woven together."
  code_name_mmp_songs: "Interwoven Voices"
 
+ ### BY MAXIUNDMICKY - Tangled Forest
+ mmp_the_tangled_forest: "Tangled Forest"
+ mmp_the_tangled_forest_article: ""
+ mmp_the_tangled_forest_article_cap: ""
+ mmp_the_tangled_forest_color: ""
+ mmp_the_tangled_forest_color_article: ""
+ mmp_the_tangled_forest_color_article_cap: ""
+ mmp_the_tangled_forest_desc: ""
+ code_name_mmp_forest: ""
+
  edict_mmp_will_of_glory: "Will of Glory"
  edict_mmp_will_of_glory_desc: "$mmp_the_spireless_tower_color_article_cap$ pierces the fog."
  

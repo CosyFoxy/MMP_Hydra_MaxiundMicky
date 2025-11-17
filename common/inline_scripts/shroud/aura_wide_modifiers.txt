@@ -166,6 +166,7 @@ owner_fleet_modifier = {
 }
 
 # By MaxiundMicky
+# The Twinning Songs
 owner_planet_modifier = {
     potential = {
         from = { has_country_flag = mmp_twinning_songs_accord }
@@ -185,5 +186,15 @@ owner_planet_modifier = {
     modifier = {
         planet_jobs_simple_drones_produces_mult = @mmp_twinning_songs_accord
         planet_crime_no_happiness_add = @mmp_twinning_songs_accord_2
+    }
+}
+
+# The Tangled Forest
+owner_planet_modifier = {
+    potential = {
+        from = { has_country_flag = mmp_tangled_forest_accord}
+    }
+    modifier = {
+        planet_non_artificial_max_districts_add = @mmp_tangled_forest_accord
     }
 }

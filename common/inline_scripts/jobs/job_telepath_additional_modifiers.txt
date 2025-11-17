@@ -341,6 +341,7 @@ triggered_planet_modifier = {
 }
 
 # By MaxiundMicky
+# The Twinning Songs
 
 triggered_country_modifier = {
     potential = {
@@ -348,4 +349,15 @@ triggered_country_modifier = {
         owner = { has_country_flag = mmp_twinning_song_accord}
     }
     planet_jobs_unity_produces_mult = @mmp_twinning_songs_telepath_bonus
+}
+
+# The Tangled Forest
+
+triggered_country_modifier = {
+    potential = {
+        exists = owner
+        owner = { has_country_flag = mmp_tangled_forest_accord}
+    }
+    #maybe busted since Composer shrouded vegetation?
+    planet_deposits_unity_produces_mult = @mmp_tangled_forest_telepath_bonus
 }
