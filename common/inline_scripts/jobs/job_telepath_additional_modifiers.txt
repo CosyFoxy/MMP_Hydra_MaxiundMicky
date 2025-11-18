@@ -358,6 +358,6 @@ triggered_country_modifier = {
         exists = owner
         owner = { has_country_flag = mmp_tangled_forest_accord}
     }
-    #maybe busted since Composer shrouded vegetation?
+    #maybe busted since Composer shrouded vegetation? Also does it have to be blockers?
     planet_deposits_unity_produces_mult = @mmp_tangled_forest_telepath_bonus
 }
