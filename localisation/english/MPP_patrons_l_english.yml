@@ -56,6 +56,8 @@
  mmp_the_tangled_forest_desc: "Vegetation infused with shroud, a being as vast as a forest."
  code_name_mmp_forest: "Shrouded Canopy"
 
+ ### BY MAXIUNDMICKY -
+
  edict_mmp_will_of_glory: "Will of Glory"
  edict_mmp_will_of_glory_desc: "$mmp_the_spireless_tower_color_article_cap$ pierces the fog."
  
@@ -109,9 +111,9 @@
  MMP_patron.55.a: "Our song will pierce through the void."
 
  # The Tangled Forest
- MMP_patron.60.desc: ""
+ MMP_patron.60.desc: "[This.GetMinorPatronInstrumentCradleIntro]\n\nAll around us we find vegetation, symbiosis between shroud and life, seemingly unending.\n\nThe further we wander, the thicker the shrouded canopy becomes, until we find ourselves surrounded by §H$code_name_mmp_forest$§!.\n\nYet as overwhelming the collective conscious around us felt, as overwhelming is its absence as we lose connection to the forest. We need to peer through the thicket again."
  MMP_patron.65.title: "$mmp_the_tangled_forest_article_cap$ Emerges"
- MMP_patron.65.desc: ""
+ MMP_patron.65.desc: "Nothing so far has compared to the union of shroud and nature we have longed for. Yet at the height of our longing, the §H$code_name_mmp_forest$§! once again invites us into its shrouded canopies.\n\nNature and psionic energies swirling around us, we are connected to the vast ecosystem of the shrouded symbiosis. Our minds melting away in the enormous collective of vegetation, psionic energy, and the overwhelming presence we feel all throughout it.\n\nThe §H$code_name_mmp_forest$§! invites us to lose ourselves in the union of it, and we let go in accordance."
  MMP_patron.65.a: "From this union we will grow strong."
 
 # Essence
@@ -149,7 +151,7 @@
 
  # The Tangled Forest
  shroud.50050.title: "The Union of Nature and Shroud"
- shroud.50050.desc: ""
+ shroud.50050.desc: "Before us, the thicket lightens revealing a calm oasis within the shrouded canopy. Stepping within it, we feel one with $mmp_the_tangled_forest_color_article$.\n\nAs it offers us a path through the maelstrom of psionic voices, we start to see paths within the forest, guided through a unity with its vegetation. Only in harmony will we become its branches, become part of its ever-growth.\n\nWe need only open our minds to the collective harmony of symbiosis with psionic nature."
  shroud.50050.a: "Our symbiosis will outgrow all else."
  shroud.50050.a.tt: "§Y$unlock_edict_tt$§!$edict_mmp_will_of_symbiosis$"
  
