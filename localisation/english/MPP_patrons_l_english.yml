@@ -56,7 +56,25 @@
  mmp_the_tangled_forest_desc: "Vegetation infused with shroud, a being as vast as a forest."
  code_name_mmp_forest: "Shrouded Canopy"
 
- ### BY MAXIUNDMICKY -
+ ### BY MAXIUNDMICKY - Transference Database
+ mmp_the_transference_database: ""
+ mmp_the_transference_database_article: ""
+ mmp_the_transference_database_article_cap: ""
+ mmp_the_transference_database_color: ""
+ mmp_the_transference_database_color_article: ""
+ mmp_the_transference_database_color_article_cap: ""
+ mmp_the_transference_database_desc: ""
+ code_name_mmp_database: ""
+
+ ### BY MAXIUNDMICKY - Looming Melancholy
+ mmp_the_looming_melancholy: ""
+ mmp_the_looming_melancholy_article: ""
+ mmp_the_looming_melancholy_article_cap: ""
+ mmp_the_looming_melancholy_color: ""
+ mmp_the_looming_melancholy_color_article: ""
+ mmp_the_looming_melancholy_color_article_cap: ""
+ mmp_the_looming_melancholy_desc: ""
+ code_name_mmp_melancholy: ""
 
  edict_mmp_will_of_glory: "Will of Glory"
  edict_mmp_will_of_glory_desc: "$mmp_the_spireless_tower_color_article_cap$ pierces the fog."
@@ -78,6 +96,16 @@
 
  edict_mmp_will_of_symbiosis: "Will of Symbiosis"
  edict_mmp_will_of_symbiosis_desc: "$mmp_the_tangled_forest_color_article_cap$ grows strong."
+
+ ###BY MAXIUNDMICKY - Transference Database
+
+ edict_mmp_will_of_engineering: "Will of Engineering"
+ edict_mmp_will_of_engineering_desc: ""
+ 
+ ###BY MAXIUNDMICKY - Looming Melancholy
+ 
+ edict_mmp_will_of_sadness: "Will of Sadness"
+ edict_mmp_will_of_sadness_desc: ""
 
  # The Spireless Tower
  MMP_patron.10.desc: "[This.GetMinorPatronEaterInstrumentIntro]\n\nThe chaos of the Shroud suddenly sharpen to a glorious light. We find ourselves compelled to respect the presence of this place.\n\nThe grandour does betray the danger of this place. The §H$code_name_mmp_tower$§! is the one to lay claim to this domain.\n\nIts expectations pierces us, setting us up for what is ahead."
@@ -116,7 +144,20 @@
  MMP_patron.65.desc: "Nothing so far has compared to the union of shroud and nature we have longed for. Yet at the height of our longing, the §H$code_name_mmp_forest$§! once again invites us into its shrouded canopies.\n\nNature and psionic energies swirling around us, we are connected to the vast ecosystem of the shrouded symbiosis. Our minds melting away in the enormous collective of vegetation, psionic energy, and the overwhelming presence we feel all throughout it.\n\nThe §H$code_name_mmp_forest$§! invites us to lose ourselves in the union of it, and we let go in accordance."
  MMP_patron.65.a: "From this union we will grow strong."
 
-# Essence
+ # The Transference Database
+ MMP_patron.70.desc: ""
+ MMP_patron.75.title: ""
+ MMP_patron.75.desc: ""
+ MMP_patron.75.a: ""
+
+# The Looming Melancholy
+ MMP_patron.80.desc: ""
+ MMP_patron.85.title: ""
+ MMP_patron.85.desc: ""
+ MMP_patron.85.a: ""
+ 
+ 
+ # Essence
 
  # The Spireless Tower
  shroud.25025.title: "The Shining Path"
@@ -154,6 +195,20 @@
  shroud.50050.desc: "Before us, the thicket lightens revealing a calm oasis within the shrouded canopy. Stepping within it, we feel one with $mmp_the_tangled_forest_color_article$.\n\nAs it offers us a path through the maelstrom of psionic voices, we start to see paths within the forest, guided through a unity with its vegetation. Only in harmony will we become its branches, become part of its ever-growth.\n\nWe need only open our minds to the collective harmony of symbiosis with psionic nature."
  shroud.50050.a: "Our symbiosis will outgrow all else."
  shroud.50050.a.tt: "§Y$unlock_edict_tt$§!$edict_mmp_will_of_symbiosis$"
+
+ # The Transference Database
+ shroud.55055.title: ""
+ shroud.55055.desc: ""
+ shroud.55055.a: ""
+ shroud.55055.a.tt: ""
+
+ # The Looming Melancholy
+ shroud.60060.title: ""
+ shroud.60060.desc: ""
+ shroud.60060.a: ""
+ shroud.60060.a.tt: ""
+
+ # Projects
  
  MMP_THE_SPIRELESS_TOWER_FC_PROJECT: "Commune with the $code_name_mmp_tower$"
  MMP_THE_SPIRELESS_TOWER_FC_PROJECT_DESC: "$MINOR_PATRON_FC_PROJECT_DESC$\n\n$mmp_tower_fc_project_desc_end$"
@@ -206,6 +261,25 @@
  MMP_THE_TANGLED_FOREST_FC_PROJECT_ROBOT_DESC: "$MINOR_PATRON_FC_PROJECT_ROBOT_DESC$\n\n$mmp_forest_fc_project_desc_end$"
  mmp_forest_fc_project_desc_end: "Until we know its true name, this being shall be referred to as the §Y$code_name_mmp_forest$§!."
 
+ # The Transference Database
+ MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT: ""
+ MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT_DESC: ""
+ MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT_HIVE: ""
+ MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT_HIVE_DESC: ""
+ MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT_ROBOT: ""
+ MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT_ROBOT_DESC: ""
+ mmp_database_fc_project_desc_end: ""
+
+ # The Looming Melancholy
+ MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT: ""
+ MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT_DESC: ""
+ MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT_HIVE: ""
+ MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT_HIVE_DESC: ""
+ MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT_ROBOT: ""
+ MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT_ROBOT_DESC: ""
+ mmp_melancholy_fc_project_desc_end: ""
+
+ #Accords
  mmp_spireless_tower_accord_tt: "$accord_minor_patron_tt$ §G$@mmp_spireless_tower_accord|0%$§! $MOD_SHIP_WEAPON_RANGE_MULT$"
  mmp_spireless_tower_modifier_tt: "$mod_country_power_projection_produces_mult$ per $pop_group_unit$ $job_telepath_swap_plural_with_icon$: §G+5%§!"
  
@@ -229,3 +303,11 @@
  mmp_tangled_forest_accord_tt: "$accord_minor_patron_tt$ §G$@mmp_tangled_forest_accord|0$§! $MOD_PLANET_NON_ARTIFICIAL_MAX_DISTRICTS_ADD$"
  mmp_tangled_forest_modifier_tt: "$mmp_mod_planet_deposits_unity_produces_mult$ per $pop_group_unit$ $job_telepath_swap_plural_with_icon$: §G$@mmp_tangled_forest_telepath_bonus|0%$§!"
  mmp_mod_planet_deposits_unity_produces_mult: "$unity_produced_from$ £blocker_icon£ $deposit_blockers$ or $planet_deposits$"
+
+ # The Transference Database
+ mmp_transference_database_accord_tt: ""
+ mmp_transference_database_modifier_tt: ""
+
+ # The Looming Melancholy
+ mmp_looming_melancholy_accord_tt: ""
+ mmp_looming_melancholy_modifier_tt: ""
