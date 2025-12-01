@@ -50,4 +50,14 @@ has_contacted_all_minor_patrons = {
     has_contact_with_patron_or_no_relation = {
         PATRON = mmp_the_tangled_forest
     }
+
+    #The Transference Database
+    has_contact_with_patron_or_no_relation = {
+        PATRON = mmp_the_transference_database
+    }
+
+    #The Looming Melancholy
+    has_contact_with_patron_or_no_relation = {
+        PATRON = mmp_the_looming_melancholy
+    }
 }
