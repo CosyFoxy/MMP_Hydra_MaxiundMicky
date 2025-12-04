@@ -340,3 +340,33 @@ inline_script = {
     EVENT_ID = MMP_patron.65
     PATRON_TYPE = mmp_the_tangled_forest
 }
+
+# The Transference Database
+
+inline_script = {
+    script = shroud/minor_patron_first_contact_start_event
+    EVENT_ID = MMP_patron.70
+    SPECIAL_PROJECT_KEY = "MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT"
+    PATRON_TYPE = mmp_the_transference_database
+}
+
+inline_script = {
+    script = shroud/minor_patron_first_contact_end_event
+    EVENT_ID = MMP_patron.75
+    PATRON_TYPE = mmp_the_transference_database
+}
+
+# The Looming Melancholy
+
+inline_script = {
+    script = shroud/minor_patron_first_contact_start_event
+    EVENT_ID = MMP_patron.80
+    SPECIAL_PROJECT_KEY = "MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT"
+    PATRON_TYPE = mmp_the_looming_melancholy
+}
+
+inline_script = {
+    script = shroud/minor_patron_first_contact_end_event
+    EVENT_ID = MMP_patron.85
+    PATRON_TYPE = mmp_the_looming_melancholy
+}

@@ -20,3 +20,10 @@
 
 @mmp_tangled_forest_accord = 2
 @mmp_tangled_forest_telepath_bonus = 0.05
+
+@mmp_transference_database_accord = 0.1
+@mmp_transference_database_telepath_bonus = 0.02
+
+@mmp_looming_melancholy_accord = 0.2
+@mmp_looming_melancholy_accord_2 = -0.2
+@mmp_looming_melancholy_telepath_bonus = 1.5
