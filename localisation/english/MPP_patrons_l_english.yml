@@ -57,24 +57,24 @@
  code_name_mmp_forest: "Shrouded Canopy"
 
  ### BY MAXIUNDMICKY - Transference Database
- mmp_the_transference_database: ""
- mmp_the_transference_database_article: ""
- mmp_the_transference_database_article_cap: ""
- mmp_the_transference_database_color: ""
- mmp_the_transference_database_color_article: ""
- mmp_the_transference_database_color_article_cap: ""
- mmp_the_transference_database_desc: ""
- code_name_mmp_database: ""
+ mmp_the_transference_database: "Transference Database"
+ mmp_the_transference_database_article: "the $mmp_the_transgerence_database$"
+ mmp_the_transference_database_article_cap: "The $mmp_the_transference_database$"
+ mmp_the_transference_database_color: "§L$mmp_the_transference_database$§!"
+ mmp_the_transference_database_color_article: "the §H$mmp_the_transference_database$§!"
+ mmp_the_transference_database_color_article_cap: "The §H$mmp_the_transference_database$§!"
+ mmp_the_transference_database_desc: "Knowledge of any machine, any construction, alive and yet artificial."
+ code_name_mmp_database: "Engineering Impersonated"
 
  ### BY MAXIUNDMICKY - Looming Melancholy
- mmp_the_looming_melancholy: ""
- mmp_the_looming_melancholy_article: ""
- mmp_the_looming_melancholy_article_cap: ""
- mmp_the_looming_melancholy_color: ""
- mmp_the_looming_melancholy_color_article: ""
- mmp_the_looming_melancholy_color_article_cap: ""
- mmp_the_looming_melancholy_desc: ""
- code_name_mmp_melancholy: ""
+ mmp_the_looming_melancholy: "Looming Melancholy"
+ mmp_the_looming_melancholy_article: "the $mmp_the_looming_melancholy$"
+ mmp_the_looming_melancholy_article_cap: "The $mmp_the_looming_melancholy$"
+ mmp_the_looming_melancholy_color: "§L$mmp_the_looming_melancholy$§!"
+ mmp_the_looming_melancholy_color_article: "the §H$mmp_the_looming_melancholy$§!"
+ mmp_the_looming_melancholy_color_article_cap: "The §H$mmp_the_looming_melancholy$§!"
+ mmp_the_looming_melancholy_desc: "A scream, a whine, tears, and frustration. Emotions all-encompassing."
+ code_name_mmp_melancholy: "Screams of Sadness"
 
  edict_mmp_will_of_glory: "Will of Glory"
  edict_mmp_will_of_glory_desc: "$mmp_the_spireless_tower_color_article_cap$ pierces the fog."
@@ -100,12 +100,12 @@
  ###BY MAXIUNDMICKY - Transference Database
 
  edict_mmp_will_of_engineering: "Will of Engineering"
- edict_mmp_will_of_engineering_desc: ""
+ edict_mmp_will_of_engineering_desc: "$mmp_the_transference_database_color_article_cap$ analyses all."
  
  ###BY MAXIUNDMICKY - Looming Melancholy
  
  edict_mmp_will_of_sadness: "Will of Sadness"
- edict_mmp_will_of_sadness_desc: ""
+ edict_mmp_will_of_sadness_desc: "$mmp_the_looming_melancholy_color_article_cap$ drowns us in sorrows."
 
  # The Spireless Tower
  MMP_patron.10.desc: "[This.GetMinorPatronEaterInstrumentIntro]\n\nThe chaos of the Shroud suddenly sharpen to a glorious light. We find ourselves compelled to respect the presence of this place.\n\nThe grandour does betray the danger of this place. The §H$code_name_mmp_tower$§! is the one to lay claim to this domain.\n\nIts expectations pierces us, setting us up for what is ahead."
@@ -139,22 +139,22 @@
  MMP_patron.55.a: "Our song will pierce through the void."
 
  # The Tangled Forest
- MMP_patron.60.desc: "[This.GetMinorPatronInstrumentCradleIntro]\n\nAll around us we find vegetation, symbiosis between shroud and life, seemingly unending.\n\nThe further we wander, the thicker the shrouded canopy becomes, until we find ourselves surrounded by §H$code_name_mmp_forest$§!.\n\nYet as overwhelming the collective conscious around us felt, as overwhelming is its absence as we lose connection to the forest. We need to peer through the thicket again."
+ MMP_patron.60.desc: "[This.GetMinorPatronCradleComposerIntro]\n\nAll around us we find vegetation, symbiosis between shroud and life, seemingly unending.\n\nThe further we wander, the thicker the shrouded canopy becomes, until we find ourselves surrounded by §H$code_name_mmp_forest$§!.\n\nYet as overwhelming the collective conscious around us felt, as overwhelming is its absence as we lose connection to the forest. We need to peer through the thicket again."
  MMP_patron.65.title: "$mmp_the_tangled_forest_article_cap$ Emerges"
  MMP_patron.65.desc: "Nothing so far has compared to the union of shroud and nature we have longed for. Yet at the height of our longing, the §H$code_name_mmp_forest$§! once again invites us into its shrouded canopies.\n\nNature and psionic energies swirling around us, we are connected to the vast ecosystem of the shrouded symbiosis. Our minds melting away in the enormous collective of vegetation, psionic energy, and the overwhelming presence we feel all throughout it.\n\nThe §H$code_name_mmp_forest$§! invites us to lose ourselves in the union of it, and we let go in accordance."
  MMP_patron.65.a: "From this union we will grow strong."
 
  # The Transference Database
- MMP_patron.70.desc: ""
- MMP_patron.75.title: ""
+ MMP_patron.70.desc: "[This.GetMinorPatronEaterInstrumentIntro]\n\n #ADD MORE"
+ MMP_patron.75.title: "$mmp_the_transference_database_article_cap$ Emerges"
  MMP_patron.75.desc: ""
- MMP_patron.75.a: ""
+ MMP_patron.75.a: "No mechanism will be beyond our knowledge."
 
 # The Looming Melancholy
- MMP_patron.80.desc: ""
- MMP_patron.85.title: ""
+ MMP_patron.80.desc: "[This.GetMinorPatronComposerEaterIntro]\n\n #ADD MORE"
+ MMP_patron.85.title: "$mmp_the_looming_melancholy_article_cap$ Emerges"
  MMP_patron.85.desc: ""
- MMP_patron.85.a: ""
+ MMP_patron.85.a: "Our tears will sweep all away."
  
  
  # Essence
@@ -197,13 +197,13 @@
  shroud.50050.a.tt: "§Y$unlock_edict_tt$§!$edict_mmp_will_of_symbiosis$"
 
  # The Transference Database
- shroud.55055.title: ""
+ shroud.55055.title: "The Artificial Wisdom"
  shroud.55055.desc: ""
  shroud.55055.a: ""
  shroud.55055.a.tt: ""
 
  # The Looming Melancholy
- shroud.60060.title: ""
+ shroud.60060.title: "The Depths of Tears"
  shroud.60060.desc: ""
  shroud.60060.a: ""
  shroud.60060.a.tt: ""
@@ -262,22 +262,22 @@
  mmp_forest_fc_project_desc_end: "Until we know its true name, this being shall be referred to as the §Y$code_name_mmp_forest$§!."
 
  # The Transference Database
- MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT: ""
- MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT_DESC: ""
- MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT_HIVE: ""
- MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT_HIVE_DESC: ""
- MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT_ROBOT: ""
- MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT_ROBOT_DESC: ""
- mmp_database_fc_project_desc_end: ""
+ MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT: "Commune with the $code_name_mmp_database$"
+ MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT_DESC: "$MINOR_PATRON_FC_PROJECT_DESC$\n\n$mmp_database_fc_project_desc_end$"
+ MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT_HIVE: "$MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT$"
+ MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT_HIVE_DESC: "$MINOR_PATRON_FC_PROJECT_HIVE_DESC$\n\n$mmp_database_fc_project_desc_end$"
+ MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT_ROBOT: "$MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT$"
+ MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT_ROBOT_DESC: "$MINOR_PATRON_FC_PROJECT_ROBOT_DESC$\n\n$mmp_database_fc_project_desc_end$"
+ mmp_database_fc_project_desc_end: "Until we know its true name, this being shall be referred to a the §Y$code_name_mmp_database$§!."
 
  # The Looming Melancholy
- MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT: ""
- MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT_DESC: ""
- MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT_HIVE: ""
- MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT_HIVE_DESC: ""
- MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT_ROBOT: ""
- MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT_ROBOT_DESC: ""
- mmp_melancholy_fc_project_desc_end: ""
+ MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT: "Commune with the $code_name_mmp_melancholy$"
+ MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT_DESC: "$MINOR_PATRON_FC_PROJECT_DESC$\n\n$mmp_melancholy_fc_project_desc_end$"
+ MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT_HIVE: "$MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT$"
+ MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT_HIVE_DESC: "$MINOR_PATRON_FC_PROJECT_HIVE_DESC$\n\n$mmp_melancholy_fc_project_desc_end$"
+ MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT_ROBOT: "$MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT$"
+ MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT_ROBOT_DESC: "$MINOR_PATRON_FC_PROJECT_ROBOT_DESC$\n\n$mmp_melancholy_fc_project_desc_end$"
+ mmp_melancholy_fc_project_desc_end: "Until we know its true name, this being shall be referred to a the §Y$code_name_mmp_melancholy$§!."
 
  #Accords
  mmp_spireless_tower_accord_tt: "$accord_minor_patron_tt$ §G$@mmp_spireless_tower_accord|0%$§! $MOD_SHIP_WEAPON_RANGE_MULT$"
