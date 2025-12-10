@@ -377,7 +377,25 @@ triggered_country_modifier = {
 triggered_planet_modifier = {
     potential = {
         exists = owner
-        owner = { has_country_flag = mmp_looming_melancholy_accord}
+        owner = {
+            AND = {
+                has_country_flag = mmp_looming_melancholy_accord
+                is_gestalt = no
+            }
+        }
     }
     planet_civilians_unity_produces_add = @mmp_looming_melancholy_telepath_bonus
+}
+
+triggered_planet_modifier = {
+    potential = {
+        exists = owner
+        owner = {
+            AND = {
+                has_country_flag = mmp_looming_melancholy_accord
+                is_gestalt = yes
+            }
+        }
+    }
+    planet_maintenance_drones_unity_produces_add = @mmp_looming_melancholy_telepath_bonus
 }
