@@ -103,7 +103,7 @@ owner_planet_modifier = {
 	}
 	modifier = {
 		planet_jobs_worker_produces_mult = @throne_shadow_accord
-		planet_jobs_slaves_produces_mult = @throne_shadow_accord # This is marked as not working in my CWS plugin, is this working in vanilla? - MaxiundMicky
+		pop_slave_bonus_workforce_mult = @throne_shadow_accord #Fixed vanilla oversight - MaxiundMicky
 	}
 }
 owner_planet_modifier = {

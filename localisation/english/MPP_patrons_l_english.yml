@@ -280,37 +280,36 @@
  mmp_melancholy_fc_project_desc_end: "Until we know its true name, this being shall be referred to a the §Y$code_name_mmp_melancholy$§!."
 
  #Accords
- mmp_spireless_tower_accord_tt: "$accord_minor_patron_tt$ §G$@mmp_spireless_tower_accord|0%$§! $MOD_SHIP_WEAPON_RANGE_MULT$"
- mmp_spireless_tower_modifier_tt: "$mod_country_power_projection_produces_mult$ per $pop_group_unit$ $job_telepath_swap_plural_with_icon$: §G+5%§!"
+ mmp_spireless_tower_accord_tt: "$accord_minor_patron_tt$ $@mmp_spireless_tower_accord|0%=+$ $MOD_SHIP_WEAPON_RANGE_MULT$"
+ mmp_spireless_tower_modifier_tt: "$mod_country_power_projection_produces_mult$ per $pop_group_unit$ $telepath_type_plural_with_icon$: $@mmp_spireless_tower_telepath_bonus|0%=+$"
  
- mmp_hollow_maw_accord_tt: "$accord_minor_patron_tt$ §G$@mmp_hollow_maw_accord|0%$§! $MOD_SHIP_ARMOR_PENETRATION_ADD$"
- mmp_hollow_maw_modifier_tt: "$MOD_COUNTRY_WAR_EXHAUSTION_MULT$ per $pop_group_unit$ $job_telepath_swap_plural_with_icon$: §G-2%§!"
+ mmp_hollow_maw_accord_tt: "$accord_minor_patron_tt$ $@mmp_hollow_maw_accord|0%=+$ $MOD_SHIP_ARMOR_PENETRATION_ADD$"
+ mmp_hollow_maw_modifier_tt: "$MOD_COUNTRY_WAR_EXHAUSTION_MULT$ per $pop_group_unit$ $telepath_type_plural_with_icon$: $@mmp_hollow_maw_telepath_bonus|0%=-$"
  
- mmp_silent_renegade_accord_tt: "$accord_minor_patron_tt$ §G$@mmp_silent_renegade_accord|0$§! $MOD_SHIP_CLOAKING_STRENGTH_ADD$"
- mmp_silent_renegade_modifier_tt: "$MOD_PLANET_ORBITAL_BOMBARDMENT_DAMAGE$ per $pop_group_unit$ $job_telepath_swap_plural_with_icon$: §G-20%§!"
+ mmp_silent_renegade_accord_tt: "$accord_minor_patron_tt$ $@mmp_silent_renegade_accord|0=+$ $MOD_SHIP_CLOAKING_STRENGTH_ADD$"
+ mmp_silent_renegade_modifier_tt: "$MOD_PLANET_ORBITAL_BOMBARDMENT_DAMAGE$ per $pop_group_unit$ $telepath_type_plural_with_icon$: $@mmp_silent_renegade_telepath_bonus|0%=-$"
  
- mmp_ravounous_flame_accord_tt: "$accord_minor_patron_tt$ §G$@mmp_ravounous_flame_accord|0%$§! $MOD_SHIP_HULL_REGEN_ADD_PERC$"
- mmp_ravounous_flame_modifier_tt: "$mod_planet_jobs_energy_produces_mult$ per $pop_group_unit$ $job_telepath_swap_plural_with_icon$: §G+10%§!"
+ mmp_ravounous_flame_accord_tt: "$accord_minor_patron_tt$ $@mmp_ravounous_flame_accord|0%=+$ $MOD_SHIP_HULL_REGEN_ADD_PERC$"
+ mmp_ravounous_flame_modifier_tt: "$mod_planet_jobs_energy_produces_mult$ per $pop_group_unit$ $telepath_type_plural_with_icon$: $@mmp_ravounous_flame_telepath_bonus|0%=+$"
  #$@mmp_spireless_tower_telepath_bonus|0%$§!"
 
  #BY MAXIUNDMICKY
  # The Twinning Songs
- mmp_twinning_songs_accord_tt: "$accord_minor_patron_tt$ $@mmp_twinning_songs_accord|0%=+$ $mod_planet_jobs_worker_produces_mult$ §T&§! $@mmp_twinning_songs_accord_2|0=+$ $MOD_PLANET_CRIME_ADD$"
- mmp_twinning_songs_accord_gestalt_tt: "$accord_minor_patron_tt$ $@mmp_twinning_songs_accord|0%=+$ $mod_planet_jobs_simple_drone_produces_mult$ §T&§! $@mmp_twinning_songs_accord_2|0=+$ $MOD_PLANET_CRIME_NO_HAPPINESS_ADD$"
- mmp_twinning_songs_modifier_tt: "$mod_planet_jobs_unity_produces_mult$ per $pop_group_unit$ $job_telepath_swap_plural_with_icon$: §G$@mmp_twinning_songs_telepath_bonus|0%$§!"
+ mmp_twinning_songs_accord_tt: "$accord_minor_patron_tt$ $@mmp_twinning_songs_accord|0%=+$ $mod_planet_jobs_worker_produces_mult$ & $@mmp_twinning_songs_accord_2|0=-$ $MOD_PLANET_CRIME_ADD$"
+ mmp_twinning_songs_modifier_tt: "$mod_planet_jobs_unity_produces_mult$ per $pop_group_unit$ $telepath_type_plural_with_icon$: $@mmp_twinning_songs_telepath_bonus|0%=+$"
 
  # The Tangled Forest
  mmp_tangled_forest_accord_tt: "$accord_minor_patron_tt$ $@mmp_tangled_forest_accord|0=+$ $MOD_PLANET_NON_ARTIFICIAL_MAX_DISTRICTS_ADD$"
- mmp_tangled_forest_modifier_tt: "$mmp_mod_planet_deposits_unity_produces_mult$ per $pop_group_unit$ $job_telepath_swap_plural_with_icon$: $@mmp_tangled_forest_telepath_bonus|0%=+$"
+ mmp_tangled_forest_modifier_tt: "$mmp_mod_planet_deposits_unity_produces_mult$ per $pop_group_unit$ $telepath_type_plural_with_icon$: $@mmp_tangled_forest_telepath_bonus|0%=+$"
  mmp_mod_planet_deposits_unity_produces_mult: "$unity_produced_from$ £blocker_icon£ $deposit_blockers$ or $planet_deposits$"
 
  # The Transference Database
  mmp_transference_database_accord_tt: "$accord_minor_patron_tt$ $@mmp_transference_database_accord|0%=+$ $mod_planet_jobs_engineering_research_produces_mult$"
- mmp_transference_database_modifier_tt: "$MOD_COUNTRY_ENGINEERING_TECH_RESEARCH_SPEED$ per $pop_group_unit$ $job_telepath_swap_plural_with_icon$: $@mmp_transference_database_telepath_bonus|0%=+$"
+ mmp_transference_database_modifier_tt: "$MOD_COUNTRY_ENGINEERING_TECH_RESEARCH_SPEED$ per $pop_group_unit$ $telepath_type_plural_with_icon$: $@mmp_transference_database_telepath_bonus|0%=+$"
 
  # The Looming Melancholy
- mmp_looming_melancholy_accord_tt: "$accord_minor_patron_tt$ $@mmp_looming_melancholy_accord_2|0%=+$ $MOD_ARMY_MORALE_DAMAGE_TAKEN_MULT$ §T&§! $@mmp_looming_melancholy_accord|0%=+$ $MOD_ARMY_MORALE_DAMAGE_MULT$"
- mmp_looming_melancholy_modifier_tt: "$mmp_mod_CivorMaint_unity_produces_mult$: $@mmp_looming_melancholy_telepath_bonus|0%=+$"
+ mmp_looming_melancholy_accord_tt: "$accord_minor_patron_tt$ $@mmp_looming_melancholy_accord_2|0%=-$ $MOD_ARMY_MORALE_DAMAGE_TAKEN_MULT$ & $@mmp_looming_melancholy_accord|0%=+$ $MOD_ARMY_MORALE_DAMAGE_MULT$"
+ mmp_looming_melancholy_modifier_tt: "Per $pop_group_unit$ $telepath_type_plural_with_icon$: $@mmp_looming_melancholy_telepath_bonus|0%=+$ $mmp_mod_CivorMaint_unity_produces_mult$"
  mmp_mod_CivorMaint_unity_produces_mult: "$unity_produced_per_pop_group_unit$ $CivOrMaint_type_plural_with_icon$"
 
  # Civilians or Maintenance Drones
